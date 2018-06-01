@@ -216,8 +216,14 @@ header.masthead {
   font-size: 3vh;
 }
 
+
 .audio-link-bar a{
   color: white;
+
+}
+.audio-link-bar a:hover{
+  color: #fed136;
+text-decoration: none;
 
 }
 
@@ -759,4 +765,22 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin-left: 0%;
   margin-right: 0%;
   max-width:100%;
+}
+.newsCols{
+  width:40vh;
+  height:50vh;
+
+}
+.news-heading{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  max-width:40vh;
+}
+.inner-news-box{
+  max-width:40vh; 
+  max-height: 40vh; 
+  text-align:center;
+}
+.news-box-image{
+  width: 80%; height:80%;
 }
