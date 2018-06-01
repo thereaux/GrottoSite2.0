@@ -722,6 +722,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
   margin-bottom: 0;
+  margin-left: 0%;
 }
 
 ul.social-buttons li a {
@@ -741,4 +742,10 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+#menuContainer{
+  margin-left: 0%;
+  margin-right: 0%;
+  max-width:100%;
 }
