@@ -182,6 +182,12 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+}
+.audio-link-bar{
+  color: white;
+  background-color: #212529;
+  height: 27vh;
 }
 
 .home-bg{
@@ -200,8 +206,9 @@ header.masthead .live-bg{
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  width:20vh;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -222,8 +229,9 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    height:10%;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
