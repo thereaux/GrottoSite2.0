@@ -160,25 +160,46 @@
       </div>
       </div>
       <div class="col-sm newsCols">
-
         <div class="inner-news-box">
-          <img src="img/about/tree-boys.jpg" style="width: 80%; height:80%;" alt="">
-          <p>
-            Title 2
-          </p>
+          <h4 class="news-heading">Spring Drips Album Release Show</h4>
+        
 
-        <button><a href="#">
-          Read</a>
-        </button>
-        </div>
 
+              
+              <img class="img-fluid news-box-image" src="img/live/live5.jpg" alt="">
+
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <button style="margin-top: 1vh;">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    Read </a>
+                  </button>
+                </div>
+              </div>  
+
+        
+      </div>
       </div>
 
-
+<!-- START OF NEWS BLOCK- CUT HERE -->
       <div class="col-sm newsCols">
-        One of three columns
+        
+        <!-- inner-news-box is the div that contains all the elements of a news post -->
+        <div class="inner-news-box">
+          <!-- news-heading- has some nice margins for news headings in css -->
+          <h4 class="news-heading">Faliure Scholarship Achieved</h4>
+          <!-- news-box-image has styling for the images for news boxes, img-fluid is...not relevant maybe? doesn't hurt-->
+          <img class="img-fluid news-box-image" src="img/News/scholarshipPhoto.jpg"alt="">
+
+        <button style="margin-top: 1vh;"><a href="https://www.9news.com/article/news/local/features/why-this-high-school-senior-won-a-failure-scholarship/73-539850155">
+          Watch on 9 news</a>
+        </button>
+
       </div>
+
+
     </div>
+<!-- END OF NEWS BLOCK- CUT HERE -->
 
     <div class="row">
       <div class="col-sm newsCols">
@@ -428,6 +449,43 @@
       </div>
     </div>
 
+<!-- START MODAL 2 -->
+<!-- change the id to a new name e.g. portfolioModal3 when copy and pasting, then change the a href to match in the news element -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Spring Drips Album Release Show</h2>
+                  <p class="item-intro text-muted">At Mutiny Informational Cafe</p>
+                  <img class="rounded-circle img-fluid" style="width:85%" src="img/live/live5.jpg">
+                  <p> Grotto released his debut album, Spring Drips last Saturday at the Mutiny Informational Cafe in Denver. The lineup included incredible local talent including Night Grinder and Restivo. The crowd was immersed in an audio visual experience in the back of the bookstore-turned-venue. Yonbre, a local musician and visual artist projected stark imagery over Grotto as he performed variations and live remixes of tracks off of Spring Drips. 
+
+
+                   </p>
+                        <ul class="list-inline">
+                    <li>Performance Date: December 16th, 2017</li>
+                    <li>Category: Live Show</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- END MODAL 3 -->
 
 
     <!-- Bootstrap core JavaScript -->
