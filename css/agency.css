@@ -201,6 +201,13 @@ header.masthead {
   color: white;
   background-color: #212529;
   height: 27vh;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 12vh;
+  font-size: 3vh;
+}
+.audio-link-bar a{
+  color: white;
+
 }
 
 .home-bg{
